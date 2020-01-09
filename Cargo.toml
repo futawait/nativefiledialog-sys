@@ -1,0 +1,16 @@
+[package]
+name = "nativefiledialog-sys"
+version = "0.1.0"
+authors = ["futawait <57043008+futawait@users.noreply.github.com>"]
+edition = "2018"
+license = "MIT"
+description = "Low-level bindings to Native File Dialog"
+homepage = "https://github.com/futawait/nativefiledialog-sys"
+documentation = "https://github.com/futawait/nativefiledialog-sys"
+repository = "https://github.com/futawait/nativefiledialog-sys"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+cc = { version = "1.0.50", features = ["parallel"] }
+bindgen = "0.52.0"
